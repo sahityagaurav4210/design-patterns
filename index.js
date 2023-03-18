@@ -6,19 +6,19 @@ const employees = [];
 const factory = new Factory();
 
 employees.push(
-  factory.create({ name: "Gaurav Sahitya", designation: EmpType.Developer })
+  factory.create({ name: "Abc", designation: EmpType.Developer })
 );
 employees.push(
-  factory.create({ name: "Rahul Kashyap", designation: EmpType.Developer })
+  factory.create({ name: "Def", designation: EmpType.Developer })
 );
 employees.push(
-  factory.create({ name: "Neeraj Kumar", designation: EmpType.Tester })
+  factory.create({ name: "Ghi", designation: EmpType.Tester })
 );
 employees.push(
-  factory.create({ name: "Manpreet Kaur", designation: EmpType.Manager })
+  factory.create({ name: "Jkl", designation: EmpType.Manager })
 );
 employees.push(
-  factory.create({ name: "Karuna Arora", designation: EmpType.HR })
+  factory.create({ name: "Mno", designation: EmpType.HR })
 );
 
 console.log('\n');
